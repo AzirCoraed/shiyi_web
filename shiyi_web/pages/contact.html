@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - VicMarketResearch</title>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="../index.html" class="logo">
+                <img src="../assets/images/logo/vicmarketresearch-logo.png" alt="VicMarketResearch Logo" class="company-logo">
+            </a>
+            <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="categories.html">Categories</a></li>
+                <li><a href="custom-research.html">Custom Research</a></li>
+                <li><a href="media.html">Media</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="contact.html" class="active">Contact us</a></li>
+            </ul>
+            <div class="nav-tools">
+                <div class="region-selector">
+                    <button class="region-toggle">
+                        <i class="fas fa-globe"></i>
+                        <span>选择区域/语言</span>
+                    </button>
+                    <div class="region-dropdown">
+                        <div class="region-group">
+                            <h3>亚太地区</h3>
+                            <ul>
+                                <li><a href="#" class="active">中国大陆 - 简体中文</a></li>
+                                <li><a href="#">中国香港 - 繁體中文</a></li>
+                                <li><a href="#">Singapore - English</a></li>
+                            </ul>
+                        </div>
+                        <div class="region-group">
+                            <h3>欧洲</h3>
+                            <ul>
+                                <li><a href="#">United Kingdom - English</a></li>
+                                <li><a href="#">Deutschland - Deutsch</a></li>
+                                <li><a href="#">France - Français</a></li>
+                            </ul>
+                        </div>
+                        <div class="region-group">
+                            <h3>北美洲</h3>
+                            <ul>
+                                <li><a href="#">United States - English</a></li>
+                                <li><a href="#">Canada - English</a></li>
+                                <li><a href="#">Canada - Français</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="search-tool">
+                    <input type="text" placeholder="请输入关键词">
+                    <button><i class="fas fa-search"></i></button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 页面标题 -->
+    <section class="page-header">
+        <div class="section-container">
+            <h1>Contact Us</h1>
+            <div class="breadcrumb">
+                <a href="../index.html">Home</a>
+                <span class="separator">/</span>
+                <span>Contact Us</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系信息 -->
+    <section class="contact-info">
+        <div class="section-container">
+            <h2 class="section-title">Get in Touch</h2>
+            <p class="section-description">We're here to help! Choose your preferred way to connect with us.</p>
+            <div class="info-grid">
+                <!-- 电话支持 -->
+                <div class="info-card">
+                    <div class="info-icon">
+                        <i class="fas fa-phone-alt"></i>
+                    </div>
+                    <h3>Phone Support</h3>
+                    <p>24/7 Customer Service</p>
+                    <div class="info-details">
+                        <p><strong>China:</strong><br>020-31521856</p>
+                        <p><strong>International:</strong><br>+86-15323335301</p>
+                    </div>
+                </div>
+
+                <!-- 邮件支持 -->
+                <div class="info-card">
+                    <div class="info-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Email Support</h3>
+                    <p>Quick Response Within 24 Hours</p>
+                    <div class="info-details">
+                        <p><strong>Market Inquiries:</strong><br>market@vicmarketresearch.com</p>
+                        <p><strong>General Inquiries:</strong><br>enquiry@vicmarketresearch.com</p>
+                    </div>
+                </div>
+
+                <!-- 办公地点 -->
+                <div class="info-card">
+                    <div class="info-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Office Location</h3>
+                    <p>Global Headquarters</p>
+                    <div class="info-details">
+                        <address>
+                            Room 1008, 10/F, Tower A<br>
+                            Victory Plaza<br>
+                            103 Tianhe Road<br>
+                            Guangzhou, China
+                        </address>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系表单 -->
+    <section class="contact-form">
+        <div class="section-container">
+            <h2 class="section-title">Send Us a Message</h2>
+            <div class="form-container">
+                <form id="contactForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="phone">Phone</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="company">Company</label>
+                            <input type="text" id="company" name="company">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject *</label>
+                        <select id="subject" name="subject" required>
+                            <option value="">Select Subject</option>
+                            <option value="general">General Inquiry</option>
+                            <option value="report">Report Related</option>
+                            <option value="custom">Custom Research</option>
+                            <option value="support">Technical Support</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message *</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- 地图 -->
+    <section class="map-section">
+        <div class="section-container">
+            <div class="map-container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3666.8942322162287!2d113.32439661744384!3d23.132066884902843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3402ff58f1e64cbb%3A0x3ec950cf28a8c6f0!2sVictory%20Plaza!5e0!3m2!1sen!2sus!4v1641895761234!5m2!1sen!2sus"
+                    width="100%"
+                    height="450"
+                    style="border:0;"
+                    allowfullscreen=""
+                    loading="lazy">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ部分 -->
+    <section class="faq-section">
+        <div class="section-container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3>How can I purchase a report?</h3>
+                    <p>You can purchase our reports directly through our website or contact our sales team for assistance. We accept various payment methods and provide secure transaction processing.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What formats are your reports available in?</h3>
+                    <p>Our reports are available in PDF format and can be accessed through our online platform. We also provide Excel data sheets for statistical information upon request.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Do you offer customization options?</h3>
+                    <p>Yes, we offer customized research solutions tailored to your specific requirements. Contact our team to discuss your needs and we'll provide a detailed proposal.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What is your refund policy?</h3>
+                    <p>We have a clear refund policy that protects our clients' interests. Please refer to our terms and conditions or contact our support team for detailed information.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="footer-main">
+            <div class="footer-container">
+                <!-- 联系信息 -->
+                <div class="footer-section">
+                    <h3>联系我们</h3>
+                    <ul>
+                        <li><i class="fas fa-phone"></i> CN: 020-31521856</li>
+                        <li><i class="fas fa-globe"></i> International: +86-15323335301</li>
+                        <li><i class="fas fa-envelope"></i> market@vicmarketresearch.com</li>
+                        <li><i class="fas fa-envelope"></i> enquiry@vicmarketresearch.com</li>
+                    </ul>
+                </div>
+
+                <!-- 快速链接 -->
+                <div class="footer-section">
+                    <h3>快速链接</h3>
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="categories.html">Categories</a></li>
+                        <li><a href="custom-research.html">Custom Research</a></li>
+                        <li><a href="media.html">Media</a></li>
+                        <li><a href="about.html">About us</a></li>
+                    </ul>
+                </div>
+
+                <!-- 行业分类 -->
+                <div class="footer-section">
+                    <h3>行业分类</h3>
+                    <ul>
+                        <li><a href="categories.html#medical">Medical Devices & Consumables</a></li>
+                        <li><a href="categories.html#chemical">Chemical & Material</a></li>
+                        <li><a href="categories.html#machinery">Machinery & Equipment</a></li>
+                        <li><a href="categories.html#electronics">Electronics & Semiconductor</a></li>
+                        <li><a href="categories.html#pharma">Pharma & Healthcare</a></li>
+                    </ul>
+                </div>
+
+                <!-- 关注我们 -->
+                <div class="footer-section">
+                    <h3>关注我们</h3>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 页脚底部 -->
+        <div class="footer-bottom">
+            <div class="footer-container">
+                <div class="footer-bottom-content">
+                    <div class="copyright">
+                        Copyright © 2007-2025 VicMarketResearch All Rights Reserved
+                    </div>
+                    <div class="footer-links">
+                        <a href="privacy-policy.html">Privacy Policy</a>
+                        <a href="terms-of-service.html">Terms of Service</a>
+                        <a href="cookie-policy.html">Cookie Policy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript文件 -->
+    <script src="../assets/js/main.js"></script>
+    <script src="../assets/js/client-slider.js"></script>
+</body>
+</html> 
