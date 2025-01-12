@@ -10,6 +10,8 @@ document.addEventListener('DOMContentLoaded', function() {
     initSearch();
     initRegionToggle();
     searchToolsInteraction();
+    initHeroBannerAnimation();
+    initWhyChooseUsAnimation();
 });
 
 // 导航栏功能
@@ -60,23 +62,48 @@ function initSearch() {
 function initRegionToggle() {
     const regionToggle = document.querySelector('.region-toggle');
     const regionDropdown = document.querySelector('.region-dropdown');
+    const regionSelector = document.querySelector('.region-selector');
     
-    if (regionToggle && regionDropdown) {
+    if (regionToggle && regionDropdown && regionSelector) {
+        let isDropdownVisible = false;
+
         regionToggle.addEventListener('click', (e) => {
             e.stopPropagation();
-            regionDropdown.classList.toggle('active');
+            isDropdownVisible = !isDropdownVisible;
+            regionDropdown.classList.toggle('active', isDropdownVisible);
+        });
+
+        // 鼠标悬停时显示
+        regionSelector.addEventListener('mouseenter', () => {
+            regionDropdown.classList.add('active');
+        });
+
+        regionSelector.addEventListener('mouseleave', () => {
+            if (!isDropdownVisible) {
+                regionDropdown.classList.remove('active');
+            }
         });
 
         // 点击下拉框外部时关闭
         document.addEventListener('click', (e) => {
             if (!regionDropdown.contains(e.target) && !regionToggle.contains(e.target)) {
                 regionDropdown.classList.remove('active');
+                isDropdownVisible = false;
             }
         });
 
         // 阻止下拉框内部点击事件冒泡
         regionDropdown.addEventListener('click', (e) => {
             e.stopPropagation();
+        });
+
+        // 处理语言切换
+        regionDropdown.querySelectorAll('a[data-lang]').forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                const lang = link.getAttribute('data-lang');
+                changeLanguage(lang);
+            });
         });
     }
 }
@@ -332,7 +359,7 @@ function updatePageContent() {
 
 // 初始化语言设置
 async function initLanguage() {
-    const userLanguage = localStorage.getItem('userLanguage') || 'en';
+    const userLanguage = localStorage.getItem('userLanguage') || 'zh-cn';
     await changeLanguage(userLanguage);
 }
 
@@ -390,3 +417,27 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
+// 初始化开始封面动画
+function initHeroBannerAnimation() {
+    const heroBanner = document.querySelector('.hero-banner .banner-content h1');
+    if (heroBanner) {
+        heroBanner.classList.add('animate-fade-in');
+    }
+}
+
+// 初始化WHY CHOOSE US动画
+function initWhyChooseUsAnimation() {
+    const whyChooseUsTitle = document.querySelector('.why-choose-us .section-title');
+    const featureCards = document.querySelectorAll('.why-choose-us .feature-card');
+    
+    if (whyChooseUsTitle) {
+        whyChooseUsTitle.classList.add('animate-slide-in');
+    }
+    
+    featureCards.forEach((card, index) => {
+        setTimeout(() => {
+            card.classList.add('animate-fade-in');
+        }, index * 200); // 依次延迟动画
+    });
+}
