@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Research - VicMarketResearch</title>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="../index.html" class="logo">
+                <img src="../assets/images/logo/vicmarketresearch-logo.png" alt="VicMarketResearch Logo" class="company-logo">
+            </a>
+            <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="categories.html">Categories</a></li>
+                <li><a href="custom-research.html" class="active">Custom Research</a></li>
+                <li><a href="media.html">Media</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+            </ul>
+            <div class="nav-tools">
+                <div class="region-selector">
+                    <button class="region-toggle">
+                        <i class="fas fa-globe"></i>
+                        <span>选择区域/语言</span>
+                    </button>
+                    <div class="region-dropdown">
+                        <div class="region-group">
+                            <h3>亚太地区</h3>
+                            <ul>
+                                <li><a href="#" class="active">中国大陆 - 简体中文</a></li>
+                                <li><a href="#">中国香港 - 繁體中文</a></li>
+                                <li><a href="#">Singapore - English</a></li>
+                            </ul>
+                        </div>
+                        <div class="region-group">
+                            <h3>欧洲</h3>
+                            <ul>
+                                <li><a href="#">United Kingdom - English</a></li>
+                                <li><a href="#">Deutschland - Deutsch</a></li>
+                                <li><a href="#">France - Français</a></li>
+                            </ul>
+                        </div>
+                        <div class="region-group">
+                            <h3>北美洲</h3>
+                            <ul>
+                                <li><a href="#">United States - English</a></li>
+                                <li><a href="#">Canada - English</a></li>
+                                <li><a href="#">Canada - Français</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="search-tool">
+                    <input type="text" placeholder="请输入关键词">
+                    <button><i class="fas fa-search"></i></button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 页面内容 -->
+    <main>
+        <!-- 服务介绍部分 -->
+        <section class="service-intro">
+            <div class="section-container">
+                <div class="intro-content">
+                    <h2>Custom Market Research Solutions</h2>
+                    <p>Tailored research solutions to meet your specific business needs. Our expert team delivers comprehensive insights that drive informed decision-making.</p>
+                    <div class="service-highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-chart-line"></i>
+                            <h3>Market Analysis</h3>
+                            <p>Detailed market size, trends, and competitive landscape analysis</p>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-users"></i>
+                            <h3>Consumer Insights</h3>
+                            <p>In-depth understanding of customer behavior and preferences</p>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-lightbulb"></i>
+                            <h3>Strategic Consulting</h3>
+                            <p>Expert guidance for business strategy and market entry</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 服务流程部分 -->
+        <section class="service-process">
+            <div class="section-container">
+                <h2 class="section-title">Our Research Process</h2>
+                <div class="process-timeline">
+                    <div class="process-step">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h3>Requirements Analysis</h3>
+                            <p>We work closely with you to understand your specific research needs and objectives</p>
+                        </div>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h3>Research Design</h3>
+                            <p>Developing a comprehensive research methodology tailored to your requirements</p>
+                        </div>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h3>Data Collection</h3>
+                            <p>Gathering data through various primary and secondary research methods</p>
+                        </div>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-number">4</div>
+                        <div class="step-content">
+                            <h3>Analysis & Insights</h3>
+                            <p>Converting raw data into actionable insights and recommendations</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 联系表单部分 -->
+        <section class="contact-form">
+            <div class="section-container">
+                <h2 class="section-title">Request Custom Research</h2>
+                <div class="form-container">
+                    <form id="customResearchForm">
+                        <div class="form-grid">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="company">Company</label>
+                                <input type="text" id="company" name="company" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+                            <div class="form-group full-width">
+                                <label for="research-type">Research Type</label>
+                                <select id="research-type" name="research-type" required>
+                                    <option value="">Select Research Type</option>
+                                    <option value="market-analysis">Market Analysis</option>
+                                    <option value="consumer-research">Consumer Research</option>
+                                    <option value="competitive-analysis">Competitive Analysis</option>
+                                    <option value="feasibility-study">Feasibility Study</option>
+                                </select>
+                            </div>
+                            <div class="form-group full-width">
+                                <label for="message">Research Requirements</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                            </div>
+                        </div>
+                        <button type="submit" class="submit-btn">Submit Request</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 页脚 -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-content">
+                <!-- 联系信息区块 -->
+                <div class="footer-section">
+                    <h4>Contact Us</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-phone"></i> CN 020-31521856</p>
+                        <p><i class="fas fa-mobile-alt"></i> +86-15323335301</p>
+                        <p><i class="fas fa-envelope"></i> market@vicmarketresearch.com</p>
+                        <p><i class="fas fa-envelope"></i> enquiry@vicmarketresearch.com</p>
+                    </div>
+                </div>
+                
+                <!-- 快速链接区块 -->
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <div class="footer-links">
+                        <a href="../index.html">Home</a>
+                        <a href="categories.html">Categories</a>
+                        <a href="custom-research.html">Custom Research</a>
+                        <a href="media.html">Media</a>
+                        <a href="about.html">About us</a>
+                    </div>
+                </div>
+
+                <!-- 行业分类区块 -->
+                <div class="footer-section">
+                    <h4>Industry Categories</h4>
+                    <div class="footer-categories">
+                        <a href="categories.html#medical">Medical Devices & Consumables</a>
+                        <a href="categories.html#chemical">Chemical & Material</a>
+                        <a href="categories.html#machinery">Machinery & Equipment</a>
+                        <a href="categories.html#electronics">Electronics & Semiconductor</a>
+                        <a href="categories.html#pharma">Pharma & Healthcare</a>
+                    </div>
+                </div>
+
+                <!-- 社交媒体区块 -->
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-media">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="footer-policies">
+                    <a href="privacy-policy.html">Privacy Policy</a>
+                    <a href="terms-of-service.html">Terms of Service</a>
+                    <a href="cookie-policy.html">Cookie Policy</a>
+                </div>
+                <p>&copy; 2007-2025 VicMarketResearch All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript文件 -->
+    <script src="../assets/js/main.js"></script>
+</body>
+</html> 

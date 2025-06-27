@@ -1,0 +1,110 @@
+{
+    "nav": {
+        "home": "Home",
+        "categories": "Categories",
+        "customResearch": "Custom Research",
+        "media": "Media",
+        "aboutUs": "About us",
+        "contactUs": "Contact us"
+    },
+    "hero": {
+        "title": "Industry Expert Facts And Forecasts.",
+        "subtitle": "Empowering Your Business Decisions with Comprehensive Market Intelligence",
+        "stats": {
+            "reports": "Market Reports",
+            "industries": "Industries",
+            "clients": "Global Clients"
+        },
+        "cta": {
+            "explore": "Explore Reports",
+            "custom": "Custom Research"
+        }
+    },
+    "search": {
+        "title": "Search",
+        "placeholder": "Enter keywords...",
+        "button": "Search",
+        "popularTitle": "Popular Searches",
+        "close": "Close"
+    },
+    "categories": {
+        "title": "TRENDING REPORTS BY INDUSTRIES",
+        "medical": "Medical Devices & Consumables",
+        "chemical": "Chemical & Material",
+        "machinery": "Machinery & Equipment",
+        "auto": "Automobile & Transportation",
+        "electronics": "Electronics & Semiconductor",
+        "pharma": "Pharma & Healthcare",
+        "food": "Food & Beverages",
+        "energy": "Energy & Power",
+        "consumer": "Consumer Goods",
+        "internet": "Internet & Communication",
+        "service": "Service & Software",
+        "agriculture": "Agriculture",
+        "descriptions": {
+            "medical": "Comprehensive analysis of medical technology market trends, innovations, and growth opportunities.",
+            "chemical": "In-depth research on chemical industry developments, material innovations, and market dynamics.",
+            "machinery": "Detailed analysis of industrial machinery, automation trends, and manufacturing solutions.",
+            "auto": "Latest insights on automotive industry trends, electric vehicles, and mobility solutions.",
+            "electronics": "Strategic analysis of electronics industry, semiconductor market, and technology trends.",
+            "pharma": "Expert insights on pharmaceutical industry trends, healthcare innovations, and market opportunities."
+        },
+        "viewMore": "View More Industries >"
+    },
+    "footer": {
+        "contact": "Contact Us",
+        "quickLinks": "Quick Links",
+        "copyright": "Copyright @ 2007-2025 VicMarketResearch All Rights Reserved"
+    },
+    "news": {
+        "title": "Latest News",
+        "readMore": "Read More >",
+        "viewDetails": "View Details >",
+        "innovation": {
+            "title": "Company Won the 2024 Innovation Enterprise Award",
+            "content": "With outstanding contributions in the field of artificial intelligence, the company has gained industry recognition..."
+        },
+        "platform": {
+            "title": "Released New Digital Platform Solution"
+        },
+        "conference": {
+            "title": "Successfully Held 2024 Technology Innovation Conference"
+        }
+    },
+    "clients": {
+        "title": "CLIENTS"
+    },
+    "whyChoose": {
+        "title": "WHY CHOOSE US",
+        "support": {
+            "title": "24/7 Assistance",
+            "desc": "Customer satisfaction is our prime agenda at the end of the day. If you got any query we are just one call away from you."
+        },
+        "customization": {
+            "title": "Customization",
+            "desc": "We tailor the reports according to your requirements and make you assure that we don't settle for less than the best."
+        },
+        "database": {
+            "title": "Large Reports Database",
+            "desc": "With over 1 Million reports published in various sectors of Industries of different Product Types and Applications."
+        },
+        "price": {
+            "title": "Better Reports Price",
+            "desc": "Given the Quality of our market research reports we provide cost effective, apt and precise reports in a competitive price tag."
+        }
+    },
+    "reports": {
+        "title": "Industry Trend Reports",
+        "categories": {
+            "chemical": "Chemical & Material",
+            "machinery": "Machinery & Equipment",
+            "electronics": "Electronics & Semiconductor",
+            "energy": "Energy & Power",
+            "medical": "Medical Devices & Consumables",
+            "consumer": "Consumer Goods",
+            "software": "Software & Business Services"
+        },
+        "viewAll": "View More Reports",
+        "getReport": "Get Report"
+    }
+} 

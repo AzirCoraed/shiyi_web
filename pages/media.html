@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media - VicMarketResearch</title>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="../index.html" class="logo">
+                <img src="../assets/images/logo/vicmarketresearch-logo.png" alt="VicMarketResearch Logo" class="company-logo">
+            </a>
+            <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="categories.html">Categories</a></li>
+                <li><a href="custom-research.html">Custom Research</a></li>
+                <li><a href="media.html" class="active">Media</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+            </ul>
+            <div class="nav-tools">
+                <div class="region-selector">
+                    <button class="region-toggle">
+                        <i class="fas fa-globe"></i>
+                        <span>选择区域/语言</span>
+                    </button>
+                    <div class="region-dropdown">
+                        <div class="region-group">
+                            <h3>亚太地区</h3>
+                            <ul>
+                                <li><a href="#" class="active">中国大陆 - 简体中文</a></li>
+                                <li><a href="#">中国香港 - 繁體中文</a></li>
+                                <li><a href="#">Singapore - English</a></li>
+                            </ul>
+                        </div>
+                        <div class="region-group">
+                            <h3>欧洲</h3>
+                            <ul>
+                                <li><a href="#">United Kingdom - English</a></li>
+                                <li><a href="#">Deutschland - Deutsch</a></li>
+                                <li><a href="#">France - Français</a></li>
+                            </ul>
+                        </div>
+                        <div class="region-group">
+                            <h3>北美洲</h3>
+                            <ul>
+                                <li><a href="#">United States - English</a></li>
+                                <li><a href="#">Canada - English</a></li>
+                                <li><a href="#">Canada - Français</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="search-tool">
+                    <input type="text" placeholder="请输入关键词">
+                    <button><i class="fas fa-search"></i></button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 页面标题 -->
+    <section class="page-header">
+        <div class="section-container">
+            <h1 data-i18n="news.pageTitle">Media Center</h1>
+            <div class="breadcrumb">
+                <a href="../index.html" data-i18n="nav.home">Home</a>
+                <span class="separator">/</span>
+                <span data-i18n="nav.media">Media</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- 新闻筛选 -->
+    <section class="news-filter">
+        <div class="section-container">
+            <div class="filter-tabs">
+                <button class="filter-tab active" data-filter="all">All News</button>
+                <button class="filter-tab" data-filter="industry">Industry News</button>
+                <button class="filter-tab" data-filter="company">Company News</button>
+                <button class="filter-tab" data-filter="reports">Report Updates</button>
+            </div>
+            <div class="filter-search">
+                <input type="text" placeholder="Search news...">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- 新闻列表 -->
+    <section class="news-list">
+        <div class="section-container">
+            <!-- 置顶新闻 -->
+            <div class="featured-news">
+                <div class="news-card featured">
+                    <div class="news-image">
+                        <img src="../assets/images/news/featured-news.jpg" alt="Featured News">
+                        <div class="news-badge">Featured</div>
+                    </div>
+                    <div class="news-content">
+                        <span class="news-date">2024-01-15</span>
+                        <h3>VicMarketResearch Releases New Digital Platform for Market Intelligence</h3>
+                        <p>We are excited to announce the launch of our new digital platform, designed to provide easier access to market intelligence and research reports...</p>
+                        <a href="#" class="learn-more">Read More ></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 新闻网格 -->
+            <div class="news-grid">
+                <!-- 行业新闻 -->
+                <div class="news-card" data-category="industry">
+                    <div class="news-image">
+                        <img src="../assets/images/news/industry-1.jpg" alt="Industry News">
+                    </div>
+                    <div class="news-content">
+                        <span class="news-date">2024-01-10</span>
+                        <h3>Global Semiconductor Market Shows Strong Growth in Q4 2023</h3>
+                        <p>The global semiconductor market demonstrated robust growth in the fourth quarter of 2023, driven by increased demand in automotive and consumer electronics sectors...</p>
+                        <a href="#" class="learn-more">Read More ></a>
+                    </div>
+                </div>
+
+                <!-- 公司新闻 -->
+                <div class="news-card" data-category="company">
+                    <div class="news-image">
+                        <img src="../assets/images/news/company-1.jpg" alt="Company News">
+                    </div>
+                    <div class="news-content">
+                        <span class="news-date">2024-01-08</span>
+                        <h3>VicMarketResearch Expands Asia Pacific Research Team</h3>
+                        <p>As part of our continued growth strategy, we are pleased to announce the expansion of our research team in the Asia Pacific region...</p>
+                        <a href="#" class="learn-more">Read More ></a>
+                    </div>
+                </div>
+
+                <!-- 报告更新 -->
+                <div class="news-card" data-category="reports">
+                    <div class="news-image">
+                        <img src="../assets/images/news/report-1.jpg" alt="Report Update">
+                    </div>
+                    <div class="news-content">
+                        <span class="news-date">2024-01-05</span>
+                        <h3>New Report: Electric Vehicle Market Outlook 2024-2030</h3>
+                        <p>Our latest report provides comprehensive analysis of the global electric vehicle market, including market size, growth trends, and future prospects...</p>
+                        <a href="#" class="learn-more">Read More ></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 分页 -->
+            <div class="pagination">
+                <a href="#" class="page-link active">1</a>
+                <a href="#" class="page-link">2</a>
+                <a href="#" class="page-link">3</a>
+                <span class="page-dots">...</span>
+                <a href="#" class="page-link">10</a>
+                <a href="#" class="page-next">Next <i class="fas fa-chevron-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 订阅区域 -->
+    <section class="subscribe-section">
+        <div class="section-container">
+            <div class="subscribe-content">
+                <h2>Stay Updated</h2>
+                <p>Subscribe to our newsletter to receive the latest industry insights and company updates</p>
+                <form class="subscribe-form">
+                    <input type="email" placeholder="Enter your email">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- 联系信息 -->
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p><i class="fas fa-map-marker-alt"></i> 123 Business Street, Shanghai, China</p>
+                <p><i class="fas fa-phone"></i> +86 123 4567 8900</p>
+                <p><i class="fas fa-envelope"></i> info@company.com</p>
+            </div>
+            
+            <!-- 快速链接 -->
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="/about">About Us</a></li>
+                    <li><a href="/services">Services</a></li>
+                    <li><a href="/projects">Projects</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                </ul>
+            </div>
+            
+            <!-- 行业分类 -->
+            <div class="footer-section">
+                <h3>Industries</h3>
+                <ul>
+                    <li><a href="/manufacturing">Manufacturing</a></li>
+                    <li><a href="/construction">Construction</a></li>
+                    <li><a href="/automotive">Automotive</a></li>
+                    <li><a href="/energy">Energy</a></li>
+                </ul>
+            </div>
+            
+            <!-- 社交媒体 -->
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-weixin"></i></a>
+                    <a href="#"><i class="fab fa-weibo"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 底部版权信息 -->
+        <div class="footer-bottom">
+            <div class="footer-bottom-content">
+                <p>&copy; 2023 Company Name. All Rights Reserved.</p>
+                <div class="footer-policies">
+                    <a href="/privacy">Privacy Policy</a>
+                    <a href="/terms">Terms of Service</a>
+                    <a href="/sitemap">Sitemap</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript文件 -->
+    <script src="../assets/js/main.js"></script>
+    <script src="../assets/js/client-slider.js"></script>
+</body>
+</html> 
